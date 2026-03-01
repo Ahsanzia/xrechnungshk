@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  .prose {
+    @apply text-slate-600 leading-relaxed break-words overflow-hidden;
+    max-width: 100%;
+  }
+  .prose h1 {
+    @apply text-3xl font-bold text-slate-900 mt-8 mb-4 break-words;
+  }
+  .prose h2 {
+    @apply text-2xl font-bold text-slate-900 mt-8 mb-4 break-words;
+  }
+  .prose h3 {
+    @apply text-xl font-bold text-slate-900 mt-6 mb-3 break-words;
+  }
+  .prose p {
+    @apply mb-4 break-words;
+  }
+  .prose ul {
+    @apply list-disc list-inside mb-4 space-y-2 break-words;
+  }
+  .prose a {
+    @apply text-blue-600 hover:underline break-all;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}

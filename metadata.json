@@ -1,0 +1,5 @@
+{
+  "name": "PDF to XRechnung Converter",
+  "description": "Kostenloser PDF zu XRechnung Konverter. Erstellen Sie GoBD-konforme E-Rechnungen für deutsche Behörden. Einfach, schnell und sicher.",
+  "requestFramePermissions": []
+}
